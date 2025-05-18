@@ -6,6 +6,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - Lesson 02
   1. Variables [[video](https://learning.oreilly.com/videos/-/9780135339503/9780135339503-UGO3_02_01)] [[code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/variables)]
+  2. Struct Types [[video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_02/)] [[code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/struct_types)]
 
 ### Resources
 
