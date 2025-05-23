@@ -14,15 +14,15 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - Pointers: Stack Growth - [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_04/)
 - Pointers: GC - [doc](https://github.com/gkjoyes/ultimate-go?tab=readme-ov-file#%EF%B8%8F-go-garbage-collector) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_05/)
 
-### 📚 Reference Materials
+## 📚 Reference Materials
 
-#### ♻️ Go Garbage Collector
+### ♻️ Go Garbage Collector
 
 - [Garbage Collection In Go : Part I - Semantics](https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html)
 - [Garbage Collection In Go : Part II - GC Traces](https://www.ardanlabs.com/blog/2019/05/garbage-collection-in-go-part2-gctraces.html)
 - [Garbage Collection In Go : Part III - GC Pacing](https://www.ardanlabs.com/blog/2019/07/garbage-collection-in-go-part3-gcpacing.html)
 
-#### 🎓 Go Learning Courses
+### 🎓 Go Learning Courses
 
 - [Ultimate Go: Advanced Concepts, Third Edition By William Kennedy](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
 - [Ultimate Go Programming, First Edition By William Kennedy](https://learning.oreilly.com/course/ultimate-go-programming/9780134757476/)
