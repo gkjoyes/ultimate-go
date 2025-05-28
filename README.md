@@ -33,6 +33,6 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 ### 🎓 Go Learning Courses
 
-- [Ultimate Go: Advanced Concepts, Third Edition By William Kennedy](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
-- [Ultimate Go Programming, First Edition By William Kennedy](https://learning.oreilly.com/course/ultimate-go-programming/9780134757476/)
-- [Ultimate Go Programming, Second Edition By William Kennedy](https://learning.oreilly.com/course/ultimate-go-programming/9780135261651/)
+- [Ultimate Go: Advanced Concepts](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
+- [Ultimate Go Programming, Second Edition](https://learning.oreilly.com/course/ultimate-go-programming/9780135261651/)
+- [Ultimate Go Programming](https://learning.oreilly.com/course/ultimate-go-programming/9780134757476/)
