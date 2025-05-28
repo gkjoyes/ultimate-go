@@ -16,7 +16,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 ## 📚 Reference Materials
 
-### ♻️ Go Garbage Collector
+### ♻️ Garbage Collector
 
 - [Garbage Collection In Go : Part I - Semantics](https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html)
 - [Garbage Collection In Go : Part II - GC Traces](https://www.ardanlabs.com/blog/2019/05/garbage-collection-in-go-part2-gctraces.html)
@@ -31,7 +31,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Modules Part 05: Gopls Improvements](https://www.ardanlabs.com/blog/2020/04/modules-05-gopls-improvements.html)
 - [Modules Part 06: Vendoring](https://www.ardanlabs.com/blog/2020/04/modules-06-vendoring.html)
 
-### 🎓 Go Learning Courses
+### 🎓 Learning Courses
 
 - [Ultimate Go: Advanced Concepts](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
 - [Ultimate Go Programming, Second Edition](https://learning.oreilly.com/course/ultimate-go-programming/9780135261651/)
