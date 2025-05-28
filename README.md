@@ -13,6 +13,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - Pointers: Escape Analysis - [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example3/example3.go) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_03/)
 - Pointers: Stack Growth - [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_04/)
 - Pointers: GC - [doc](https://github.com/gkjoyes/ultimate-go?tab=readme-ov-file#%EF%B8%8F-go-garbage-collector) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_05/)
+- Contants - [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/constants/) | [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_04/)
 
 ## 📚 Reference Materials
 
