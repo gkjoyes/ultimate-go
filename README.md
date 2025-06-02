@@ -32,6 +32,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Modules Part 05: Gopls Improvements](https://www.ardanlabs.com/blog/2020/04/modules-05-gopls-improvements.html)
 - [Modules Part 06: Vendoring](https://www.ardanlabs.com/blog/2020/04/modules-06-vendoring.html)
 
+### 🧠 CPU Caches
+
+- [Getting Friendly With CPU Caches](https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html)
+
 ### 🎓 Learning Courses
 
 - [Ultimate Go: Advanced Concepts](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
