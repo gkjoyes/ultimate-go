@@ -6,26 +6,18 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 ### 📗 Lesson 02
 
-2.1 Variables 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/variables/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_01/)
-
-2.2 Struct Types 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/struct_types/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_02/)
-
-2.3.1 Pointers: Pass by Values 🔗 [code](https://github.com/gkjoyes/ultimate-go/blob/main/lesson2/pointers/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_01/)
-
-2.3.2 Pointers: Sharing Data 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example2/example2.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_02/)
-
-2.3.3 Pointers: Escape Analysis 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example3/example3.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_03/)
-
-2.3.4 Pointers: Stack Growth 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_04/)
-
-2.3.5 Pointers: GC 🔗 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_05/)
-
+2.1 Variables 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/variables/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_01/)  
+2.2 Struct Types 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/struct_types/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_02/)  
+2.3.1 Pointers: Pass by Values 🔗 [code](https://github.com/gkjoyes/ultimate-go/blob/main/lesson2/pointers/example1/example1.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_01/)  
+2.3.2 Pointers: Sharing Data 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example2/example2.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_02/)  
+2.3.3 Pointers: Escape Analysis 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example3/example3.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_03/)  
+2.3.4 Pointers: Stack Growth 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_04/)  
+2.3.5 Pointers: GC 🔗 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_05/)  
 2.4 Contants 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/constants/) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_04/)
 
 ### 📗 Lesson 03
 
-3.1 Arrays: Mechanical Sympathy 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example1) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_01/)
-
+3.1 Arrays: Mechanical Sympathy 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example1) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_01/)  
 3.2.1 Arrays: Semantics 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_02/)
 
 ## 📚 Reference Materials
