@@ -18,7 +18,8 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 ### 📗 Lesson 03
 
 - Arrays: Mechanical Sympathy 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example1) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_01/)
-- Arrays: Semantics 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_02/)
+- Arrays: Semantics 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_02_01/)
+- Arrays: Range Mechanics 🔗 [code](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example4.go) | 🎥 [video](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_03_02_02/)
 
 ## 📚 Reference Materials
 
