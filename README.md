@@ -42,6 +42,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - [Getting Friendly With CPU Caches](https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html)
 
+### 🗂️ Maps
+
+- [Macro View of Map Internals In Go](https://www.ardanlabs.com/blog/2013/12/macro-view-of-map-internals-in-go.html)
+
 ### 🎓 Learning Courses
 
 - [Ultimate Go: Advanced Concepts](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
