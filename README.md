@@ -26,6 +26,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/slices/example5/example5.go)
 - [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/slices/example6/example6.go)
 - [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/slices/example8/example8.go)
+- [Maps](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/maps/)
 
 ## 📚 Reference Materials
 
