@@ -15,6 +15,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go)
 - [Pointers: GC](https://learning.oreilly.com/videos/ultimate-go-advanced/9780135339503/9780135339503-UGO3_02_03_05/)
 - [Contants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/constants/)
+
 </details>
 
 <details>
@@ -30,6 +31,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/slices/example6/example6.go)
 - [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/slices/example8/example8.go)
 - [Maps](https://github.com/gkjoyes/ultimate-go/blob/main/lesson3/maps/)
+
 </details>
 
 <details>
@@ -41,6 +43,8 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/blob/main/lesson4/interfaces/example3/example3.go)
 - [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/blob/main/lesson4/interfaces/example5/example5.go)
 - [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/blob/main/lesson4/interfaces/example7/example7.go)
+- [Embedding](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/embedding)
+
 </details>
 
 ## 📚 Reference Materials
