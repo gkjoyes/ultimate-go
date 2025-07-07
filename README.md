@@ -48,6 +48,13 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>📗 Lesson 05: Composition</b> </summary>
+
+- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/grouping)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
