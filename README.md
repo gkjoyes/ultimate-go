@@ -2,10 +2,10 @@
 
 Go is lightweight, simple, and perfect for modern cloud-native and microservices development.
 
-## 📘 Course Contents
+## 📗 Course Contents
 
 <details>
-<summary> <b>📗 Lesson 02: Memory and Data Semantics</b> </summary>
+<summary> <b>Lesson 02: Memory and Data Semantics</b> </summary>
 
 - [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/variables/example1/example1.go)
 - [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/struct_types/example1/example1.go)
@@ -19,7 +19,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>📗 Lesson 03: Data Structures</b> </summary>
+<summary> <b>Lesson 03: Data Structures</b> </summary>
 
 - [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example1)
 - [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go)
@@ -35,7 +35,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>📗 Lesson 04: Decopuling</b> </summary>
+<summary> <b>Lesson 04: Decopuling</b> </summary>
 
 - [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/blob/main/lesson4/methods/example1/example1.go)
 - [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/blob/main/lesson4/methods/example3/example3.go)
@@ -49,7 +49,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>📗 Lesson 05: Composition</b> </summary>
+<summary> <b>Lesson 05: Composition</b> </summary>
 
 - [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/grouping)
 - [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/decoupling)
