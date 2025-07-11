@@ -18,8 +18,6 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
   
 </details>
 
----
-
 <details>
 <summary> <b>Lesson 03: Data Structures</b> </summary>
 
@@ -36,8 +34,6 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
   
 </details>
 
----
-
 <details>
 <summary> <b>Lesson 04: Decopuling</b> </summary>
 
@@ -52,8 +48,6 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
   
 </details>
 
----
-
 <details>
 <summary> <b>Lesson 05: Composition</b> </summary>
 
@@ -63,8 +57,6 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/pollution)
   
 </details>
-
----
 
 ## 📚 Reference Materials
 
