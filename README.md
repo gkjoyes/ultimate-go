@@ -55,6 +55,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/decoupling)
 - [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/assertions)
 - [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/pollution)
+- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/mocking)
   
 </details>
 
