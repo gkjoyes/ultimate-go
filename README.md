@@ -59,6 +59,18 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
   
 </details>
 
+<details>
+<summary> <b>Lesson 06: Error Handling</b> </summary>
+
+- [Default Error Values](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example1/example1.go)
+- [Error Variables](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example2/example2.go)
+- [Type as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example4/example4.go)
+- [Behavior as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example5/example5.go)
+- [Find the Bug](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example6/example6.go)
+- [Wrapping Errors](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example7/example7.go)
+  
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
