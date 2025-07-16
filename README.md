@@ -96,6 +96,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - [Macro View of Map Internals In Go](https://www.ardanlabs.com/blog/2013/12/macro-view-of-map-internals-in-go.html)
 
+### Packaging
+
+- [Design Philosophy On Packaging](https://www.ardanlabs.com/blog/2017/02/design-philosophy-on-packaging.html)
+
 ### 🎓 Learning Courses
 
 - [Ultimate Go: Advanced Concepts](https://learning.oreilly.com/course/ultimate-go-advanced/9780135339503/)
