@@ -71,7 +71,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Go Routines</b> </summary>
+<summary> <b>Lesson 08: Go Routines</b> </summary>
 
 - [Creating Go Routines](https://github.com/gkjoyes/ultimate-go/tree/main/lesson8)
 
