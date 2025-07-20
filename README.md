@@ -77,6 +77,13 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>Lesson 09: Data Races</b> </summary>
+
+- [Managing Data Races](https://github.com/gkjoyes/ultimate-go/tree/main/lesson9)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
