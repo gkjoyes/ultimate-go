@@ -93,7 +93,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example4/example4.go)
 - [Fanout Semaphore](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example5/example5.go)
 - [Bounded Work Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example6/example6.go)
-- [Drop Pattern](hhttps://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example7/example7.go)
+- [Drop Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example7/example7.go)
 - [Cancellation Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example8/example8.go)
 
 </details>
