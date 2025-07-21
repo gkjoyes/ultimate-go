@@ -7,80 +7,80 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 <details>
 <summary> <b>Lesson 02: Memory and Data Semantics</b> </summary>
 
-- [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/variables/example1/example1.go)
-- [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/struct_types/example1/example1.go)
-- [Pointers: Pass by Values](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example1/example1.go)
-- [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example2/example2.go)
-- [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example3/example3.go)
-- [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/pointers/example4/example4.go)
-- [Contants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson2/constants/)
+- [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/variables/example1/example1.go)
+- [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/struct_types/example1/example1.go)
+- [Pointers: Pass by Values](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example1/example1.go)
+- [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example2/example2.go)
+- [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example3/example3.go)
+- [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example4/example4.go)
+- [Contants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/constants/)
   
 </details>
 
 <details>
 <summary> <b>Lesson 03: Data Structures</b> </summary>
 
-- [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example1)
-- [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go)
-- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/arrays/example2/example2.go)
-- [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example2/example2.go)
-- [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example4/example4.go)
-- [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example3/example3.go)
-- [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example5/example5.go)
-- [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example6/example6.go)
-- [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/slices/example8/example8.go)
-- [Maps](https://github.com/gkjoyes/ultimate-go/tree/main/lesson3/maps/)
+- [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example1)
+- [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example2/example2.go)
+- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example2/example2.go)
+- [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example2/example2.go)
+- [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example4/example4.go)
+- [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example3/example3.go)
+- [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example5/example5.go)
+- [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example6/example6.go)
+- [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example8/example8.go)
+- [Maps](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/maps/)
   
 </details>
 
 <details>
 <summary> <b>Lesson 04: Decopuling</b> </summary>
 
-- [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/methods/example1/example1.go)
-- [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/methods/example3/example3.go)
-- [Interfaces: Polymorphism](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/interfaces/example2/example2.go)
-- [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/interfaces/example3/example3.go)
-- [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/interfaces/example5/example5.go)
-- [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/interfaces/example7/example7.go)
-- [Embedding](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/embedding)
-- [Exporting](https://github.com/gkjoyes/ultimate-go/tree/main/lesson4/exporting)
+- [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/methods/example1/example1.go)
+- [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/methods/example3/example3.go)
+- [Interfaces: Polymorphism](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example2/example2.go)
+- [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example3/example3.go)
+- [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example5/example5.go)
+- [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example7/example7.go)
+- [Embedding](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/embedding)
+- [Exporting](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/exporting)
   
 </details>
 
 <details>
 <summary> <b>Lesson 05: Composition</b> </summary>
 
-- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/grouping)
-- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/decoupling)
-- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/assertions)
-- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/pollution)
-- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson5/mocking)
+- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/grouping)
+- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/decoupling)
+- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/assertions)
+- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/pollution)
+- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/mocking)
   
 </details>
 
 <details>
 <summary> <b>Lesson 06: Error Handling</b> </summary>
 
-- [Default Error Values](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example1/example1.go)
-- [Error Variables](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example2/example2.go)
-- [Type as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example4/example4.go)
-- [Behavior as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example5/example5.go)
-- [Find the Bug](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example6/example6.go)
-- [Wrapping Errors](https://github.com/gkjoyes/ultimate-go/blob/main/lesson6/example7/example7.go)
+- [Default Error Values](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example1/example1.go)
+- [Error Variables](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example2/example2.go)
+- [Type as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example4/example4.go)
+- [Behavior as Context](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example5/example5.go)
+- [Find the Bug](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example6/example6.go)
+- [Wrapping Errors](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_06/example7/example7.go)
   
 </details>
 
 <details>
 <summary> <b>Lesson 08: Go Routines</b> </summary>
 
-- [Creating Go Routines](https://github.com/gkjoyes/ultimate-go/tree/main/lesson8)
+- [Creating Go Routines](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_08)
 
 </details>
 
 <details>
 <summary> <b>Lesson 09: Data Races</b> </summary>
 
-- [Managing Data Races](https://github.com/gkjoyes/ultimate-go/tree/main/lesson9)
+- [Managing Data Races](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_09)
 
 </details>
 
