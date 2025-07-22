@@ -98,6 +98,13 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>Lesson 11: Concurrency Patterns</b> </summary>
+
+- [Failure Detection](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_11/example1)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
