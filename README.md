@@ -105,6 +105,17 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>Lesson 12: Testing</b> </summary>
+
+- [Basic Unit Testing](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_12/example1)
+- [Table Unit Testing](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_12/example2)
+- [Mocking Web Server Response](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_12/example3)
+- [Testing Internal Endpoints](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_12/example4)
+- [Sub Tests](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_12/example5)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
