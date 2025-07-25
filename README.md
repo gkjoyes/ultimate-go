@@ -116,6 +116,16 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>Lesson 12: Benchmarks</b> </summary>
+
+- [Basic Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example1)
+- [Validate Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example2)
+- [CPU-Bound Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example3)
+- [IO-Bound Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example4)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
