@@ -117,7 +117,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 12: Benchmarks</b> </summary>
+<summary> <b>Lesson 13: Benchmarks</b> </summary>
 
 - [Basic Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example1)
 - [Validate Benchmarking](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_13/example2)
