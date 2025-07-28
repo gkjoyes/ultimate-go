@@ -126,6 +126,13 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 </details>
 
+<details>
+<summary> <b>Lesson 14: Profiling and Tracing</b> </summary>
+
+- [Stack Traces](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_14/stack_trace)
+
+</details>
+
 ## 📚 Reference Materials
 
 ### ♻️ Garbage Collector
