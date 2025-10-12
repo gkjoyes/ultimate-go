@@ -33,5 +33,5 @@ func main() {
 	aaa := int32(10)
 
 	fmt.Printf("\n")
-	fmt.Printf("var aa bool \t %T [%v]\n", aaa, aaa)
+	fmt.Printf("var aaa int32 \t %T [%v]\n", aaa, aaa)
 }
