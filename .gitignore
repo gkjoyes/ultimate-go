@@ -24,3 +24,9 @@ go.work.sum
 # env file
 .env
 .vscode
+
+# Ignore Go binaries (no file extension) created in any subfolder
+**/*[!.]*       # Matches files with no extension
+!**/*.go        # Keep source code
+!**/*.mod       # Keep mod files
+!**/*.sum       # Keep sum files
