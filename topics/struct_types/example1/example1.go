@@ -15,7 +15,7 @@ func main() {
 	var e1 example
 	fmt.Printf("%+v\n", e1)
 
-	// Declare a vairable of type ecample and init using a struct literals.
+	// Declare a variable of type example and initialize using a struct literals.
 	e2 := example{
 		flag:    true,
 		counter: 10,

@@ -29,7 +29,7 @@ func main() {
 	fmt.Printf("var cc float64 \t %T [%v]\n", cc, cc)
 	fmt.Printf("var dd bool \t %T [%v]\n", dd, dd)
 
-	// Specify type and perfrom conversion.
+	// Specify type and perform conversion.
 	aaa := int32(10)
 
 	fmt.Printf("\n")

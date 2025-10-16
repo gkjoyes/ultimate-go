@@ -1,4 +1,4 @@
-// Sample program to show how to decalre and initialize anonymous struct types.
+// Sample program to show how to declare and initialize anonymous struct types.
 package main
 
 import "fmt"
@@ -12,7 +12,7 @@ func main() {
 	}
 	fmt.Printf("%+v\n", e1)
 
-	// Declare a variable of an anonymouse type and init using a struct literal.
+	// Declare a variable of an anonymous type and initialize using a struct literal.
 	e2 := struct {
 		flag    bool
 		counter int16

@@ -16,21 +16,21 @@ type nbp struct {
 // Single byte padding.
 type bp1 struct {
 	a bool // 	1 byte
-	// 			1 byte padding
+	//--------> 1 byte padding
 	b int16 //  2 byte
 }
 
 // Three byte padding.
 type bp3 struct {
 	a bool //	1 byte
-	// 			3 byte padding
+	//--------> 3 byte padding
 	b int32 //	4 byte
 }
 
 // Seven byte padding
 type bp7 struct {
 	a bool // 	1 byte
-	// 			7 byte padding
+	//--------> 7 byte padding
 	b int64 // 	8 byte
 }
 
@@ -38,10 +38,10 @@ type bp7 struct {
 type bp8 struct {
 	a string //		16 bytes
 	b int32  // 	4 bytes
-	// 				4 byte padding
+	//------------> 4 byte padding
 	c string // 	16 bytes
 	d int32  // 	4 bytes
-	// 				4 byte padding
+	//------------> 4 byte padding
 }
 
 // No padding on 32bit Arch.

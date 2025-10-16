@@ -11,7 +11,7 @@ type example struct {
 }
 
 func main() {
-	// Declare a variable of an anonymous type and init using a struct literal.
+	// Declare a variable of an anonymous type and initialize using a struct literal.
 	e := struct {
 		flag    bool
 		counter int16
