@@ -5,10 +5,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 ## 📗 Course Contents
 
 <details>
-<summary> <b>Lesson 02: Memory and Data Semantics</b> </summary>
+<summary> <b>Memory and Data Semantics</b> </summary>
 
-- [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/variables/example1/example1.go)
-- [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/struct_types/example1/example1.go)
+- [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/variables/example1/example1.go)
+- [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/struct_types/)
 - [Pointers: Pass by Values](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example1/example1.go)
 - [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example2/example2.go)
 - [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example3/example3.go)
