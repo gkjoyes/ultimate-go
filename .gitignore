@@ -31,7 +31,10 @@ go.work.sum
 
 # Ignore all files recursively
 **/*
-# Keep all directories
+# Keep all directories (so Git can still traverse into them)
 !*/
-# Keep all files that have an extension (.go, .mod, .sum, etc.)
-!**/*.*
+# Keep Go source files
+!**/*.go
+# Keep go.mod and go.sum files
+!**/*.mod
+!**/*.sum
