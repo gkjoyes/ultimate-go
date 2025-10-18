@@ -1,4 +1,5 @@
 // Sample program to show the mechanics of escape analysis.
+// go build -gcflags -m=2
 package main
 
 // user represents a user in the system.

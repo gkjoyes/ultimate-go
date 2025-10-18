@@ -12,7 +12,7 @@ func main() {
 	fmt.Printf("value of count: [%d]\t address of count: [%p]\n", count, &count)
 }
 
-// increment delcares count as a variable that hold actual value.
+// increment declares count as a variable that hold actual value.
 //
 //go:noinline
 func increment(c int) {

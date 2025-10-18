@@ -12,7 +12,7 @@ func main() {
 	fmt.Printf("Value of count: [%d] \t Address of count: [%p]\n", count, &count)
 }
 
-// increament delcares count as a pointer variable whose value is always and address.
+// increment declares count as a pointer variable whose value is always and address.
 //
 //go:noinline
 func increment(c *int) {

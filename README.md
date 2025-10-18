@@ -9,12 +9,12 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/variables/example1/example1.go)
 - [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/struct_types/)
-- [Pointers: Pass by Values](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example1/example1.go)
-- [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example2/example2.go)
-- [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example3/example3.go)
-- [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/pointers/example4/example4.go)
-- [Contants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/constants/)
-  
+- [Pointers: Pass by Values](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example1/example1.go)
+- [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example2/example2.go)
+- [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example3/example3.go)
+- [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example4/example4.go)
+- [Constants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/constants/)
+
 </details>
 
 <details>
