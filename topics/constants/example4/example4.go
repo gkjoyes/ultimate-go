@@ -1,7 +1,4 @@
 /*
-// Common durations. There is no definition for units of Day or larger to avoid confusion across
-// daylight savings time zone transitions.
-
 type Duration int64
 
 const (
@@ -24,20 +21,23 @@ import (
 )
 
 func main() {
+	// Use the time package to get the current time/date.
 	now := time.Now()
 
 	// Subtract 5 nanoseconds from now using a literal constant.
 	nanoSeconds := now.Add(-5)
 
 	// Subtract 5 seconds from now using a declared constants.
-	const timeout = 5 * time.Second // time.Duration(5) * time.Duration(1000 * MilliSecond)
+	const timeout = 5 * time.Second
 	seconds := now.Add(-timeout)
 
-	// cannot use minsFive (variable of type int64) as time.Duration value in argument to now.Add
-	// minsFive := int64(-5)
-	// variable := now.Add(minsFive)
+	/*
+		// Subtract 5 nanoseconds from now using a variable of type int64.
+		minusFive := int64(-5)
+		variable := now.Add(minusFive)
+	*/
 
-	fmt.Printf("Now: %v\n", now)
-	fmt.Printf("Subtract 5 NanoSeconds: %v\n", nanoSeconds)
-	fmt.Printf("Subtract 5 Seconds: %v\n", seconds)
+	fmt.Printf("Now: \t%v\n", now)
+	fmt.Printf("Subtract 5 NanoSeconds: \t%v\n", nanoSeconds)
+	fmt.Printf("Subtract 5 Seconds: \t%v\n", seconds)
 }

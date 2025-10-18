@@ -13,7 +13,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Pointers: Sharing Data](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example2/example2.go)
 - [Pointers: Escape Analysis](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example3/example3.go)
 - [Pointers: Stack Growth](https://github.com/gkjoyes/ultimate-go/tree/main/topics/pointers/example4/example4.go)
-- [Constants](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_02/constants/)
+- [Constants](https://github.com/gkjoyes/ultimate-go/tree/main/topics/constants/)
 
 </details>
 

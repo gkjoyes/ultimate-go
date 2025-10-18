@@ -16,5 +16,5 @@ const (
 )
 
 func main() {
-	fmt.Println("Will Complile")
+	fmt.Println("Will Compile")
 }
