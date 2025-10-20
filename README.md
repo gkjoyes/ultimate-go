@@ -22,7 +22,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example1)
 - [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example2.go)
-- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example4.go)
+- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example4/example4.go)
 - [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example2/example2.go)
 - [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example4/example4.go)
 - [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example3/example3.go)
