@@ -5,7 +5,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 ## 📗 Course Contents
 
 <details>
-<summary> <b>Memory and Data Semantics</b> </summary>
+<summary> <b> Memory and Data Semantics</b> </summary>
 
 - [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/variables/example1/example1.go)
 - [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/struct_types/)
@@ -18,12 +18,12 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 03: Data Structures</b> </summary>
+<summary> <b> Data Structures</b> </summary>
 
-- [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example1)
-- [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example2/example2.go)
-- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/arrays/example2/example2.go)
-- [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example2/example2.go)
+- [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example1)
+- [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example2.go)
+- [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example4.go)
+- [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example2/example2.go)
 - [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example4/example4.go)
 - [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example3/example3.go)
 - [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example5/example5.go)

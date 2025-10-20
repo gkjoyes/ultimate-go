@@ -1,4 +1,4 @@
-// Sample program to show memeory for an array is contiguous.
+// Sample program to show memory for an array is contiguous.
 package main
 
 import "fmt"

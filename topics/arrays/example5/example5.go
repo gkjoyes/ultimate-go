@@ -11,8 +11,8 @@ func main() {
 	// Declare an array of 4 integers that is initialized with some values.
 	four := [4]int{10, 20, 30, 40}
 
+	// ./example5.go:15:9: cannot use four (variable of type [4]int) as [5]int value in assignment
 	// five = four
-	// ./example5.go:14:9: cannot use four (variable of type [4]int) as [5]int value in assignment
 
 	fmt.Println(five)
 	fmt.Println(four)

@@ -12,7 +12,7 @@ func main() {
 	fruits[3] = "Grape"
 	fruits[4] = "Plum"
 
-	// You can't access an index of a slice byond its length.
+	// You can't access an index of a slice beyond its length.
 	fruits[5] = "Runtime error"
 
 	fmt.Println(fruits)

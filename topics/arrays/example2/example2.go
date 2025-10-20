@@ -5,7 +5,7 @@ import "fmt"
 
 func main() {
 
-	// Declare an array of five strings that is initilaized to its zero value.
+	// Declare an array of five strings that is initialized to its zero value.
 	var fruits [5]string
 
 	fruits[0] = "Apple"
@@ -22,7 +22,7 @@ func main() {
 	// Declare an array of 4 integers that is initialized with some values.
 	numbers := [4]int{10, 20, 30, 40}
 
-	// Iterate ove the array of numbers.
+	// Iterate over the array of numbers.
 	for i := 0; i < len(numbers); i++ {
 		fmt.Println(i, numbers[i])
 	}

@@ -1,8 +1,8 @@
 // Tests to show data oriented design matters.
 
-// go test -run none -bench . -benchtime 3s
+// go test -run none -bench . -benchtime 3s -benchmem
 
-package example1
+package main
 
 import "testing"
 
