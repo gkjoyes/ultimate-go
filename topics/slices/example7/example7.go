@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-// user represent infromation about a user.
+// user represent information about a user.
 type user struct {
 	id   int
 	name string
@@ -27,20 +27,20 @@ func main() {
 		{3, "x3"},
 		{4, "x4"},
 	}
-
+	fmt.Println("-----------------------")
 	// display the all user values from the slice.
 	display(users...)
 
-	// udpate second user.
+	// update second user.
 	change(users...)
 
+	fmt.Println("-----------------------")
 	// display the all user values again.
 	display(users...)
 }
 
 // display can accept and display multiple values of user types.
 func display(users ...user) {
-	fmt.Printf("\n")
 	for _, u := range users {
 		fmt.Printf("User: [%+v]\n", u)
 	}

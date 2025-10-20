@@ -19,6 +19,8 @@ func main() {
 
 	displayLikes(users)
 
+	fmt.Println("---------------------------")
+
 	// Add a new user.
 	users = append(users, user{})
 
@@ -29,9 +31,8 @@ func main() {
 	displayLikes(users)
 }
 
+// displayLikes displays the number of likes for all users.
 func displayLikes(users []user) {
-	fmt.Printf("\n")
-	// Display the number of likes for all users.
 	for i := range users {
 		fmt.Printf("User: [%d]\tLikes: [%d]\n", i, users[i].likes)
 	}

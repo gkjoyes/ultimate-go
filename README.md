@@ -24,11 +24,11 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example2.go)
 - [Arrays: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example4/example4.go)
 - [Slices: Declare, Length, and Reference Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example2/example2.go)
-- [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example4/example4.go)
-- [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example3/example3.go)
-- [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example5/example5.go)
-- [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example6/example6.go)
-- [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/slices/example8/example8.go)
+- [Slices: Appending Slices](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example4/example4.go)
+- [Slices: Taking Slices of Slices](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example3/example3.go)
+- [Slices: Strings and References](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example5/example5.go)
+- [Slices: Strings and Slices](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example6/example6.go)
+- [Slices: Range Mechanics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/slices/example8/example8.go)
 - [Maps](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_03/maps/)
   
 </details>

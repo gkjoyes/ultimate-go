@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-	// Delare a nil slice of strings.
+	// Declare a nil slice of strings.
 	var data []string
 
 	// Capture the capacity of the slice.
@@ -18,9 +18,8 @@ func main() {
 		value := fmt.Sprintf("Record: %d", record)
 		data = append(data, value)
 
-		// When the capacity of the slice changes, display the changes.
+		// When the capacity of the slice changes, calculate and display the percentage of changes.
 		if lastCap != cap(data) {
-			// Calculate the percentage of change.
 			capChange := float64(cap(data)-lastCap) / float64(lastCap) * 100
 
 			lastCap = cap(data)

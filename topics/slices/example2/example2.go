@@ -18,7 +18,7 @@ func main() {
 }
 
 func inspectSlice(slice []string) {
-	fmt.Printf("Length: [%d] Capacity: [%d]\n", len(slice), cap(slice))
+	fmt.Printf("Length: [%d]\nCapacity: [%d]\n", len(slice), cap(slice))
 
 	for i, s := range slice {
 		fmt.Printf("[%d]\t[%p]\t[%s]\n", i, &slice[i], s)

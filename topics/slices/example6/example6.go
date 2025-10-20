@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	// Declare a string with both chinese and english characters.
 	s := "世界 means world"
 
@@ -25,6 +24,6 @@ func main() {
 		// Copy rune from the string to our buffer.
 		copy(buf[:], s[i:si])
 
-		fmt.Printf("%2d: %q \t codepoint: [%#6x]\tencoded bytes: [%#v]\n", i, r, r, buf[:rl])
+		fmt.Printf("%2d: %q\tcodepoint: [%#6x]\tencoded bytes: [%#v]\n", i, r, r, buf[:rl])
 	}
 }

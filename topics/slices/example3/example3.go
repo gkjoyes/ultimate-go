@@ -13,14 +13,20 @@ func main() {
 	slice1[4] = "Plum"
 	inspectSlice(slice1)
 
+	fmt.Println("--------------------------------------")
+
 	// Take a slice of slice1. We want just indexes 2 and 3.
 	slice2 := slice1[2:4]
 	inspectSlice(slice2)
+
+	fmt.Println("--------------------------------------")
 
 	// Change the value of the index 0 of slice2.
 	slice2[0] = "CHANGED"
 	inspectSlice(slice1)
 	inspectSlice(slice2)
+
+	fmt.Println("--------------------------------------")
 
 	// Make a new slice big enough to hold elements of slice1 and copy the values over using the builtin copy function.
 	slice3 := make([]string, len(slice1))
@@ -29,7 +35,7 @@ func main() {
 }
 
 func inspectSlice(slice []string) {
-	fmt.Printf("Length: [%d] Capacity: [%d]\n", len(slice), cap(slice))
+	fmt.Printf("Length: [%d]\nCapacity: [%d]\n", len(slice), cap(slice))
 
 	for i, s := range slice {
 		fmt.Printf("[%d]\t[%p]\t[%s]\n", i, &slice[i], s)
