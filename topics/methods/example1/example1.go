@@ -14,7 +14,7 @@ func (u user) notify() {
 	fmt.Printf("Sending User Email To %s<%s>\n", u.name, u.email)
 }
 
-// changeEmail implments a method with a pointer receiver.
+// changeEmail implements a method with a pointer receiver.
 func (u *user) changeEmail(email string) {
 	u.email = email
 }

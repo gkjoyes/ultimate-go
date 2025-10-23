@@ -46,7 +46,7 @@ func main() {
 	fireEvent2(event)
 	fireEvent2(d.event)
 
-	// Declare a variable of type handler for the gobal and method based event functions.
+	// Declare a variable of type handler for the global and method based event functions.
 	h1 := handler(event)
 	h2 := handler(d.event)
 

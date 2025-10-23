@@ -23,8 +23,8 @@ func (d *duration) setHours(h float64) {
 // hours returns the duration as a floating point number of hours.
 func (d duration) hours() float64 {
 	hour := d / hour
-	nsec := d % hour
-	return float64(hour) + float64(nsec)*(1e-9/60/60)
+	nanoSecond := d % hour
+	return float64(hour) + float64(nanoSecond)*(1e-9/60/60)
 }
 
 func main() {

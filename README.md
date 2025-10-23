@@ -34,10 +34,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 04: Decopuling</b> </summary>
+<summary> <b> Decopuling</b> </summary>
 
-- [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/methods/example1/example1.go)
-- [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/methods/example3/example3.go)
+- [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example1/example1.go)
+- [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example3/example3.go)
 - [Interfaces: Polymorphism](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example2/example2.go)
 - [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example3/example3.go)
 - [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example5/example5.go)

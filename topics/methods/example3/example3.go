@@ -27,19 +27,23 @@ func main() {
 	fmt.Println("Proper calls to methods:")
 	d.displayName()
 	d.setAge(30)
+	fmt.Println("----------------------------")
 
 	fmt.Println("What the compiler is doing:")
 	data.displayName(d)
 	(*data).setAge(&d, 30)
+	fmt.Println("----------------------------")
 
 	fmt.Println("Call value receiver methods with variable:")
-	valueSematics(d)
-	pointerSematics(d)
+	fmt.Println("----------------------------")
+	valueSemantics(d)
+	fmt.Println("----------------------------")
+	pointerSemantics(d)
 }
 
-func valueSematics(d data) {
+func valueSemantics(d data) {
 	// Declare a function variable for the method bound to the d variable.
-	// The function variable will get its own copy of d becuase the method is using a value receiver.
+	// The function variable will get its own copy of d because the method is using a value receiver.
 	f1 := d.displayName
 
 	// Call the method via the variable.
@@ -52,7 +56,7 @@ func valueSematics(d data) {
 	f1()
 }
 
-func pointerSematics(d data) {
+func pointerSemantics(d data) {
 	// Declare a function variable for the method bound to the d variable.
 	// The function variable will get the address of d because the method is using a pointer receiver.
 	f2 := d.setAge
