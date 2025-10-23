@@ -34,7 +34,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b> Decopuling</b> </summary>
+<summary> <b> Decoupling</b> </summary>
 
 - [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example1/example1.go)
 - [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example3/example3.go)
