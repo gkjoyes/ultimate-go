@@ -11,7 +11,7 @@ func main() {
 	score := scores["x1"]
 	fmt.Println("Score: ", score)
 
-	// If we need to check for the presence of a key we use a 2 variable assignement.
+	// If we need to check for the presence of a key we use a 2 variable assignment.
 	score, ok := scores["x1"]
 	fmt.Println("Score: ", score, "Present: ", ok)
 

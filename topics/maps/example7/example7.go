@@ -10,6 +10,7 @@ func main() {
 		"p1": 20,
 		"p2": 10,
 	}
+	fmt.Println("Score: ", scores["p2"])
 
 	// Pass the map to a function to perform some mutation.
 	double(scores, "p2")

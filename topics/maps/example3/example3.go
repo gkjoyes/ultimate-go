@@ -11,13 +11,13 @@ type users []user
 
 func main() {
 	/*
-	   // Declare and make a map that uses a slice as the key.
-	   userMap := make(map[users]int)
+		// Declare and make a map that uses a slice as the key.
+		userMap := make(map[users]int)
 
-	   // Iterate over the map.
-
-	   	for key, val := range userMap {
-	   		fmt.Println(key, val)
-	   	}
+		// Iterate over the map.
+		for key, val := range userMap {
+			fmt.Println(key, val)
+		}
 	*/
+
 }

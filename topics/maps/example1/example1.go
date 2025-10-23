@@ -29,7 +29,7 @@ func main() {
 	// Read the u1 again.
 	fmt.Printf("%+v\n", users["u1"])
 
-	// Delete the value at a specfic key.
+	// Delete the value at a specific key.
 	delete(users, "u2")
 
 	// Check the length of the map. There are only 3 elements.

@@ -30,7 +30,7 @@ func main() {
 	// Sort the keys alphabetically.
 	sort.Strings(keys)
 
-	// Walk throught the keys and pull each value from the map.
+	// Walk thought the keys and pull each value from the map.
 	for _, key := range keys {
 		fmt.Println(key, users[key])
 	}
