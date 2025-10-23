@@ -5,7 +5,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 ## 📗 Course Contents
 
 <details>
-<summary> <b> Memory and Data Semantics</b> </summary>
+<summary> <b> 1. Memory and Data Semantics</b> </summary>
 
 - [Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/variables/example1/example1.go)
 - [Struct Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/struct_types/)
@@ -18,7 +18,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b> Data Structures</b> </summary>
+<summary> <b> 2. Data Structures</b> </summary>
 
 - [Arrays: Mechanical Sympathy](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example1)
 - [Arrays: Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/arrays/example2/example2.go)
@@ -34,7 +34,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b> Decoupling</b> </summary>
+<summary> <b> 3. Decoupling</b> </summary>
 
 - [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example1/example1.go)
 - [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example3/example3.go)
