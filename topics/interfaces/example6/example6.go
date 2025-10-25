@@ -1,4 +1,4 @@
-// Sample program to show the syntax of the type asserations.
+// Sample program to show the syntax of the type assertions.
 package main
 
 import (
@@ -12,7 +12,7 @@ type user struct {
 	name string
 }
 
-// finder represents the ablility to find users.
+// finder represents the ability to find users.
 type finder interface {
 	find(id int) (*user, error)
 }
@@ -22,7 +22,7 @@ type userSVC struct {
 	host string
 }
 
-// find implements the finder interface using pointer samantics.
+// find implements the finder interface using pointer semantics.
 func (*userSVC) find(id int) (*user, error) {
 	return &user{id: id, name: "x1"}, nil
 }
@@ -41,7 +41,7 @@ func run(f finder) error {
 	if err != nil {
 		return err
 	}
-	fmt.Printf("Found user %+v\n", u)
+	fmt.Printf("Found user: %+v\n", u)
 
 	// You can use a type assertion to get a copy of the userSVC pointer that is stored inside the interface.
 	// if ok is false, not such value is present in the interface.

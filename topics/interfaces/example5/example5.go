@@ -23,6 +23,7 @@ type epson struct {
 	name string
 }
 
+// print displays the printer's name.
 func (e *epson) print() {
 	fmt.Println("Printer Name:", e.name)
 }
@@ -48,5 +49,5 @@ func main() {
 	}
 
 	// NOTE: When we store a value, the interface value has its own copy of the value. Changes to the original value will not be seen.
-	// NOTE: When we store a pointer, ther interface value has its own copy of the address. Changes to the original value will be seen.
+	// NOTE: When we store a pointer, the interface value has its own copy of the address. Changes to the original value will be seen.
 }

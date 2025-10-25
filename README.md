@@ -38,10 +38,10 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 
 - [Methods: Value and Pointer Semantics](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example1/example1.go)
 - [Methods: Function/Method Variables](https://github.com/gkjoyes/ultimate-go/tree/main/topics/methods/example3/example3.go)
-- [Interfaces: Polymorphism](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example2/example2.go)
-- [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example3/example3.go)
-- [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example5/example5.go)
-- [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/interfaces/example7/example7.go)
+- [Interfaces: Polymorphism](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example2/example2.go)
+- [Interfaces: Method Sets and Address of Value](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example3/example3.go)
+- [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example5/example5.go)
+- [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example6/example6.go)
 - [Embedding](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/embedding)
 - [Exporting](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/exporting)
   

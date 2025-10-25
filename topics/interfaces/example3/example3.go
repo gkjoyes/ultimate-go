@@ -24,12 +24,12 @@ func main() {
 	u := user{name: "x1", email: "x1@gmail.com"}
 
 	// NOTE: Values of type user do not implement the interface.
-	// sendNotifiaiton(u)
+	// sendNotification(u)
 
-	sendNotifiaiton(&u)
+	sendNotification(&u)
 }
 
 // sendNotification accepts values that implements the notifier interface and send notification.
-func sendNotifiaiton(n notifier) {
+func sendNotification(n notifier) {
 	n.notify()
 }

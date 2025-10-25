@@ -8,9 +8,9 @@ type file struct {
 	name string
 }
 
-// read implements the reader interface for a file.
+// reads data from the provided file system.
 func (file) read(b []byte) (int, error) {
-	s := "<rss><channel><title>Going Go Programming</title></channel></rss>"
+	s := "<rss><channel><title>Ultimate Go</title></channel></rss>"
 	copy(b, s)
 	return len(s), nil
 }
@@ -20,7 +20,7 @@ type pipe struct {
 	name string
 }
 
-// read implements the reader interface for a network connection.
+// reads data from the provided pipe network connection.
 func (pipe) read(b []byte) (int, error) {
 	s := `{name: "x1", title: "developer"}`
 	copy(b, s)
