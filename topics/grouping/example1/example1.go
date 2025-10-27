@@ -1,7 +1,7 @@
 // This is an example of using type hierarchies with a OOP pattern.
 // This is not something we want to do in Go. Go does not have the concept of sub-typing.
 // All types are their own and the concept of base and derived types do not exist in Go.
-// This pattern does not provide a good desgin principle in a Go program.
+// This pattern does not provide a good design principle in a Go program.
 package main
 
 import "fmt"

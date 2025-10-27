@@ -1,11 +1,11 @@
 // This is an example of using composition and interfaces. This is something we want to do in Go.
-// We will group common types by their behaviour and not by their state.
+// We will group common types by their behavior and not by their state.
 // This pattern does provide a good design principle in Go programming.
 package main
 
 import "fmt"
 
-// Speaker provide a common behaviour for all concrete types to follow if they want to be a part of this group.
+// Speaker provide a common behavior for all concrete types to follow if they want to be a part of this group.
 type Speaker interface {
 	Speak()
 }
@@ -30,7 +30,7 @@ type Cat struct {
 	ClimbFactor int
 }
 
-// Speak knows how to speak lika cat.
+// Speak knows how to speak like cat.
 // This makes a Cat now part of a group of concrete types that know how to speak.
 func (c *Cat) Speak() {
 	fmt.Printf("Meow! My name is %s, it is %t I am a mammal with a climb factor of %d.\n", c.Name, c.IsMammal, c.ClimbFactor)
