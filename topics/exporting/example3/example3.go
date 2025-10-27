@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gkjoyes/ultimate-go/lesson4/exporting/example3/counters"
+	"github.com/gkjoyes/ultimate-go/topics/exporting/example3/counters"
 )
 
 func main() {

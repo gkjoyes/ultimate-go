@@ -43,7 +43,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 - [Interfaces: Storage by Value](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example5/example5.go)
 - [Interfaces: Type Assertion](https://github.com/gkjoyes/ultimate-go/tree/main/topics/interfaces/example6/example6.go)
 - [Embedding](https://github.com/gkjoyes/ultimate-go/tree/main/topics/embedding)
-- [Exporting](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_04/exporting)
+- [Exporting](https://github.com/gkjoyes/ultimate-go/tree/main/topics/exporting)
   
 </details>
 
