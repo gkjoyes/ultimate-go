@@ -1,4 +1,4 @@
-// Sample program to show how what we are doing is NOT embedding a type but just using a type as a field.
+// Sample program to show how to embed a type into another type and the relationship between the inner and outer type.
 package main
 
 import "fmt"
@@ -14,21 +14,25 @@ func (u *user) notify() {
 	fmt.Printf("Sending user email to %s<%s>\n", u.name, u.email)
 }
 
-// admin represents an admin user with privillages.
+// admin represents an admin user with privileges.
 type admin struct {
-	person user // NOT Embedding
-	level  string
+	user  // Embedded Type
+	level string
 }
 
 func main() {
 	// Create an admin user.
 	a := admin{
-		person: user{
+		user: user{
 			name:  "x1",
 			email: "x1@gmail.com",
 		},
 		level: "super",
 	}
-	// We can access fields methods.
-	a.person.notify()
+
+	// We can access the inner type's method directly.
+	a.user.notify()
+
+	// The inner type's method is promoted.
+	a.notify()
 }

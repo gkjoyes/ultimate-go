@@ -19,7 +19,7 @@ func (u *user) notify() {
 	fmt.Printf("Sending user email to %s<%s>\n", u.name, u.email)
 }
 
-// admin represents an admin user with privillages.
+// admin represents an admin user with privileges.
 type admin struct {
 	user
 	level string
