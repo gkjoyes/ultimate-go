@@ -50,7 +50,7 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 <details>
 <summary> <b>4. Composition</b> </summary>
 
-- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/language/grouping)
+- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/grouping)
 - [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/decoupling)
 - [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/assertions)
 - [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_05/pollution)
