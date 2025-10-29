@@ -1,4 +1,4 @@
-// Sample program to demonstrating struct composition.
+// Sample program demonstrating decoupling with interfaces.
 package main
 
 import (
@@ -21,12 +21,12 @@ type Data struct {
 	Line string
 }
 
-// Puller declares behaviour of pulling data.
+// Puller declares behavior of pulling data.
 type Puller interface {
 	Pull(d *Data) error
 }
 
-// Storer declares behaviour of storing data.
+// Storer declares behavior of storing data.
 type Storer interface {
 	Store(d *Data) error
 }
@@ -64,6 +64,12 @@ func (*X2) Store(d *Data) error {
 	return nil
 }
 
+// System wraps X1 and X2 together into a single system.
+type System struct {
+	X1
+	X2
+}
+
 // pull knows how to pull bulks of data from X1.
 func pull(p Puller, data []Data) (int, error) {
 	for i := range data {
@@ -85,13 +91,13 @@ func store(s Storer, data []Data) (int, error) {
 }
 
 // Copy knows how to pull and store data from the System.
-func Copy(p Puller, s Storer, batch int) error {
+func Copy(s *System, batch int) error {
 	data := make([]Data, batch)
 
 	for {
-		i, err := pull(p, data)
+		i, err := pull(&s.X1, data)
 		if i > 0 {
-			if _, err := store(s, data[:i]); err != nil {
+			if _, err := store(&s.X2, data[:i]); err != nil {
 				return err
 			}
 		}
@@ -102,16 +108,18 @@ func Copy(p Puller, s Storer, batch int) error {
 }
 
 func main() {
-	x1 := &X1{
-		Host:    "localhost:8000",
-		Timeout: time.Second,
-	}
-	x2 := &X2{
-		Host:    "localhost:9000",
-		Timeout: time.Second,
+	sys := System{
+		X1: X1{
+			Host:    "localhost:8000",
+			Timeout: time.Second,
+		},
+		X2: X2{
+			Host:    "localhost:9000",
+			Timeout: time.Second,
+		},
 	}
 
-	if err := Copy(x1, x2, 3); err != io.EOF {
+	if err := Copy(&sys, 3); err != io.EOF {
 		log.Fatal(err)
 	}
 }

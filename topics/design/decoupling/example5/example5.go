@@ -1,4 +1,4 @@
-// Sample program to demonstrating struct composition.
+// Sample program demonstrating removing interface pollution.
 package main
 
 import (
@@ -29,12 +29,6 @@ type Puller interface {
 // Storer declares behaviour of storing data.
 type Storer interface {
 	Store(d *Data) error
-}
-
-// PullerStorer declares behaviour for both pulling and storing.
-type PullerStorer interface {
-	Puller
-	Storer
 }
 
 // X1 is a system we need to pull data from.
@@ -70,10 +64,10 @@ func (*X2) Store(d *Data) error {
 	return nil
 }
 
-// System wraps X1 and X2 together into a single system.
+// System wraps Pullers and Stores together into a single system.
 type System struct {
-	X1
-	X2
+	Puller
+	Storer
 }
 
 // pull knows how to pull bulks of data from X1.
@@ -97,7 +91,7 @@ func store(s Storer, data []Data) (int, error) {
 }
 
 // Copy knows how to pull and store data from the System.
-func Copy(ps PullerStorer, batch int) error {
+func Copy(ps *System, batch int) error {
 	data := make([]Data, batch)
 
 	for {
@@ -115,11 +109,11 @@ func Copy(ps PullerStorer, batch int) error {
 
 func main() {
 	sys := System{
-		X1: X1{
+		Puller: &X1{
 			Host:    "localhost:8000",
 			Timeout: time.Second,
 		},
-		X2: X2{
+		Storer: &X2{
 			Host:    "localhost:9000",
 			Timeout: time.Second,
 		},
