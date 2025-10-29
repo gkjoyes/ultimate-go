@@ -4,7 +4,6 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"time"
 )
 
 // car represents something you drive.
@@ -27,8 +26,6 @@ func (cloud) String() string {
 }
 
 func main() {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-
 	// Create a slice of the Stringer interface values.
 	vals := []fmt.Stringer{
 		car{name: "x1"},
@@ -38,7 +35,7 @@ func main() {
 	// Let's run this experiment ten times.
 	for i := 0; i < 10; i++ {
 		// Choose a random number from 0 to 1.
-		n := r.Intn(2)
+		n := rand.Intn(2)
 
 		// Perform a type assertion that we have a concrete type of cloud in the interface value we randomly choose.
 		if v, ok := vals[n].(cloud); ok {

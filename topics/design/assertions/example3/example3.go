@@ -1,4 +1,4 @@
-// Sample program to show how method sets can affect behaviour.
+// Sample program to show how method sets can affect behavior.
 package main
 
 import "fmt"
