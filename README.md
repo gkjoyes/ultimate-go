@@ -50,11 +50,11 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 <details>
 <summary> <b>4. Composition</b> </summary>
 
-- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/grouping)
-- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/decoupling)
-- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/assertions)
-- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/pollution)
-- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/mocking)
+- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/grouping)
+- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/decoupling)
+- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/assertions)
+- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/pollution)
+- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/mocking)
   
 </details>
 
