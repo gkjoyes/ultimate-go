@@ -1,7 +1,7 @@
 // Sample program to show how you can personally mock concrete types when you need to for your own packages or tests.
 package main
 
-import "github.com/gkjoyes/ultimate-go/lesson5/mocking/example1/pubsub"
+import "github.com/gkjoyes/ultimate-go/topics/design/mocking/example1/pubsub"
 
 // publisher is an interface to allow this package to mock the pubsub package support.
 type publisher interface {
@@ -29,7 +29,7 @@ func main() {
 		&mock{},
 	}
 
-	// Range over the interface values to see how the publisher interface provides the level of decoupling the user needes.
+	// Range over the interface values to see how the publisher interface provides the level of decoupling the user needs.
 	// The pubsub package did not need to provide the interface type.
 	for _, p := range pubs {
 		p.Publish("key", "value")
