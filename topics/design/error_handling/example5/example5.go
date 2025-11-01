@@ -1,4 +1,4 @@
-// Sample program to show how to implement behaviour as context.
+// Sample program to show how to implement behavior as context.
 package main
 
 import (
@@ -19,8 +19,8 @@ type temporary interface {
 	Temporary() bool
 }
 
-// BehaviourAsConext shows how to check for the behaviour of an interface that can be returned from the net package.
-func (c *client) BehaviourAsContext() {
+// BehaviorAsContext shows how to check for the behavior of an interface that can be returned from the net package.
+func (c *client) BehaviorAsContext() {
 	for {
 		line, err := c.reader.ReadString('\n')
 		if err != nil {

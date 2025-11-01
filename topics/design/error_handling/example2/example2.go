@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	// ErrBadRequest is returned when there are problems witht the request.
+	// ErrBadRequest is returned when there are problems with the request.
 	ErrBadRequest = errors.New("Bad Request")
 	// ErrPageMoved is returned when a 302/301 is returned.
 	ErrPageMoved = errors.New("Page Moved")

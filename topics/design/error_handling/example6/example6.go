@@ -1,4 +1,4 @@
-// Sample program to show a classic bug in clustom error handling.
+// Sample program to show a classic bug in custom error handling.
 package main
 
 import "log"

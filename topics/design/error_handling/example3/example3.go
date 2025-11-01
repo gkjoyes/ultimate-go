@@ -34,14 +34,13 @@ func (e *InvalidUnmarshalError) Error() string {
 	return "json: Unmarshal(nil " + e.Type.String() + ")"
 }
 
-// user is a type for use in the Unmarshal call.
-type user struct {
-	Name int
-}
-
 func main() {
-	var u user
-	if err := Unmarshal([]byte(`{"name":"bill"}`), u); err != nil {
+	user := struct {
+		Name string
+	}{}
+	data := `{"name":"x1"}`
+
+	if err := Unmarshal([]byte(data), user); err != nil {
 		switch e := err.(type) {
 		case *UnmarshalTypeError:
 			fmt.Printf("UnmarshalTypeError: Value[%s] Type[%v]\n", e.Value, e.Type)
@@ -52,7 +51,7 @@ func main() {
 		}
 		return
 	}
-	fmt.Println("Name:", u.Name)
+	fmt.Println("Name:", user.Name)
 }
 
 // Unmarshal simulates an unmarshal call that always fails.

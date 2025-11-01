@@ -59,13 +59,13 @@ func firstCall(i int) error {
 
 // secondCall makes a call to a third function and wraps any error.
 func secondCall(i int) error {
-	if err := thirdCall(); err != nil {
-		return fmt.Errorf("secondCall -> thirdCall() : %w", err)
+	if err := thirdCall(i); err != nil {
+		return fmt.Errorf("secondCall -> thirdCall(%d) : %w", i, err)
 	}
 	return nil
 }
 
-// thridCall create an error value we will validate.
-func thirdCall() error {
-	return &AppError{99}
+// thirdCall create an error value we will validate.
+func thirdCall(i int) error {
+	return &AppError{i}
 }
