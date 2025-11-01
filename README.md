@@ -50,23 +50,23 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 <details>
 <summary> <b>4. Composition</b> </summary>
 
-- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/grouping)
-- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/decoupling)
-- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/assertions)
-- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/pollution)
-- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/topics/composition/design/mocking)
+- [Grouping Types](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/composition/grouping)
+- [Decoupling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/composition/decoupling)
+- [Conversion and Assertions](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/composition/assertions)
+- [Interface Pollution](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/composition/pollution)
+- [Mocking](https://github.com/gkjoyes/ultimate-go/tree/main/topics/design/composition/mocking)
   
 </details>
 
 <details>
 <summary> <b>5. Error Handling</b> </summary>
 
-- [Default Error Values](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example1/example1.go)
-- [Error Variables](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example2/example2.go)
-- [Type as Context](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example4/example4.go)
-- [Behavior as Context](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example5/example5.go)
-- [Find the Bug](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example6/example6.go)
-- [Wrapping Errors](https://github.com/gkjoyes/ultimate-go/blob/main/topics/error_handling/example7/example7.go)
+- [Default Error Values](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example1/example1.go)
+- [Error Variables](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example2/example2.go)
+- [Type as Context](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example4/example4.go)
+- [Behavior as Context](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example5/example5.go)
+- [Find the Bug](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example6/example6.go)
+- [Wrapping Errors](https://github.com/gkjoyes/ultimate-go/blob/main/topics/design/error_handling/example7/example7.go)
   
 </details>
 
