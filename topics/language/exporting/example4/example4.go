@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gkjoyes/ultimate-go/topics/exporting/example4/users"
+	"github.com/gkjoyes/ultimate-go/topics/language/exporting/example4/users"
 )
 
 func main() {

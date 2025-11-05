@@ -1,7 +1,7 @@
 // Sample program to show how you can personally mock concrete types when you need to for your own packages or tests.
 package main
 
-import "github.com/gkjoyes/ultimate-go/topics/design/mocking/example1/pubsub"
+import "github.com/gkjoyes/ultimate-go/topics/design/composition/mocking/example1/pubsub"
 
 // publisher is an interface to allow this package to mock the pubsub package support.
 type publisher interface {
