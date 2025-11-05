@@ -71,9 +71,11 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 08: Go Routines</b> </summary>
+<summary> <b>6. Go Routines</b> </summary>
 
-- [Creating Go Routines](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_08)
+- [Goroutine Creation and Scheduling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/goroutines/example1/example1.go)
+- [Single-Thread Time Slicing](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/goroutines/example2/example2.go)
+- [Dual-Context Scheduling](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/goroutines/example3/example3.go)
 
 </details>
 

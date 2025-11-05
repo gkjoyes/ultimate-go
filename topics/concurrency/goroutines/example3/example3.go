@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	// Allocate two logical processors for the schduler to use.
+	// Allocate two logical processors for the scheduler to use.
 	runtime.GOMAXPROCS(2)
 }
 
@@ -19,7 +19,7 @@ func main() {
 
 	fmt.Println("Start Goroutines")
 
-	// Decalre an anonymous function and create a groutine.
+	// Declare an anonymous function and create a goroutine.
 	go func() {
 
 		// Display the lowercase alphabets three times.
@@ -31,7 +31,7 @@ func main() {
 		wg.Done()
 	}()
 
-	// Declare an anonymous function and create a groutine.
+	// Declare an anonymous function and create a goroutine.
 	go func() {
 		for i := 0; i < 3; i++ {
 			for r := 'A'; r < 'Z'; r++ {
