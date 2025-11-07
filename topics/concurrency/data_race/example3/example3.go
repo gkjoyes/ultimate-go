@@ -25,7 +25,6 @@ func main() {
 	for i := 0; i < grs; i++ {
 		go func() {
 			for i := 0; i < 2; i++ {
-
 				// Only allow one goroutines through this critical section at a time.
 				mutex.Lock()
 				{

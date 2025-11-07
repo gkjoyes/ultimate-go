@@ -1,4 +1,4 @@
-// Sample program to show how to use the atomic package to provide safe access to numberic types.
+// Sample program to show how to use the atomic package to provide safe access to numeric types.
 package main
 
 import (
@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 )
 
-// counter is a variable incremented by all groutines.
+// counter is a variable incremented by all goroutines.
 var counter int64
 
 func main() {
@@ -18,7 +18,7 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(grs)
 
-	// Create two groutines
+	// Create two goroutines.
 	for g := 0; g < grs; g++ {
 		go func() {
 			for i := 0; i < 2; i++ {

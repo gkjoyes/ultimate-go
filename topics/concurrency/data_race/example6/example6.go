@@ -67,7 +67,7 @@ func main() {
 		}
 	}()
 
-	// Just hold main from returing. The data race will cause the program to exit.
+	// Just hold main from returning. The data race will cause the program to exit.
 	var wg sync.WaitGroup
 	wg.Add(1)
 	wg.Wait()

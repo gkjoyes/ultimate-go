@@ -80,9 +80,14 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 09: Data Races</b> </summary>
+<summary> <b>7. Data Races</b> </summary>
 
-- [Managing Data Races](https://github.com/gkjoyes/ultimate-go/tree/main/lesson_09)
+- [Race Condition Demonstration](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example1/example1.go)
+- [Atomic Operations](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example2/example2.go)
+- [Mutex Synchronization](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example3/example3.go)
+- [Read/Write Mutex Usage](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example4/example4.go)
+- [Concurrent Map Access](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example5/example5.go)
+- [Interface Race Condition](https://github.com/gkjoyes/ultimate-go/tree/main/topics/concurrency/data_race/example6/example6.go)
 
 </details>
 

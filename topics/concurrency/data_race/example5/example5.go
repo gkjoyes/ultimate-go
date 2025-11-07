@@ -10,7 +10,7 @@ import (
 var scores = make(map[string]int)
 
 func main() {
-	//  wg is used to manage concurency.
+	//  wg is used to manage concurrency.
 	var wg sync.WaitGroup
 	wg.Add(2)
 
@@ -30,7 +30,7 @@ func main() {
 		wg.Done()
 	}()
 
-	// Wait for groutines to finish.
+	// Wait for goroutines to finish.
 	wg.Wait()
 	fmt.Println("Final Scores:", scores)
 

@@ -15,11 +15,11 @@ var data []string
 // rwMutex is used to define a critical section of code.
 var rwMutex sync.RWMutex
 
-// Number of reads occuring at any given time.
+// Number of reads occurring at any given time.
 var readCount int64
 
 func main() {
-	// wg is used to manage concurency.
+	// wg is used to manage concurrency.
 	var wg sync.WaitGroup
 	wg.Add(1)
 
@@ -55,7 +55,9 @@ func writer(i int) {
 
 		// Perform some work since we have a full lock.
 		time.Sleep(time.Duration(rand.Intn(100)) * time.Millisecond)
-		fmt.Printf("Performing Write: RCound[%d]\n", rc)
+
+		fmt.Printf("Performing Write: RCount[%d]\n", rc)
+
 		data = append(data, fmt.Sprintf("String: %d", i))
 	}
 	rwMutex.Unlock()
@@ -71,6 +73,7 @@ func reader(id int) {
 
 		// Perform some read work and display values.
 		time.Sleep(time.Duration(rand.Intn(10)) * time.Millisecond)
+
 		fmt.Printf("%d: Performing Read: Length[%d] RCount[%d]\n", id, len(data), rc)
 
 		// Decrement the read count value by 1.
