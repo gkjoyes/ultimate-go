@@ -17,12 +17,12 @@ func main() {
 	ch := make(chan string, 1)
 	go func() {
 		time.Sleep(time.Duration(rand.IntN(200)) * time.Millisecond)
-		ch <- "data"
+		ch <- "result"
 	}()
 
 	select {
-	case d := <-ch:
-		fmt.Println("work completed: ", d)
+	case result := <-ch:
+		fmt.Println("work completed: ", result)
 	case <-ctx.Done():
 		fmt.Println("work cancelled")
 	}

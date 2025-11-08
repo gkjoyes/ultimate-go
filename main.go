@@ -1,41 +1,29 @@
-// You can edit this code!
-// Click here and start typing.
 package main
 
 import (
-	"crypto/sha1"
+	"context"
 	"fmt"
-	"runtime"
-	"strconv"
-	"sync"
+	"math/rand/v2"
+	"time"
 )
 
-func init() {
-	runtime.GOMAXPROCS(1)
-}
-
 func main() {
-	var wg sync.WaitGroup
-	wg.Add(2)
+	timeout := 150 * time.Millisecond
+	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	defer cancel()
+
+	ch := make(chan string, 1)
 
 	go func() {
-		defer wg.Done()
-		printHash("A")
+		time.Sleep(time.Duration(rand.IntN(200)) * time.Millisecond)
+		ch <- "result"
 	}()
 
-	go func() {
-		defer wg.Done()
-		printHash("B")
-	}()
-	wg.Wait()
-}
-
-func printHash(prefix string) {
-
-	for i := 0; i < 50000; i++ {
-		s := strconv.Itoa(i)
-		hash := sha1.Sum([]byte(s))
-		fmt.Printf("%s: %05d: %x\n", prefix, i, hash)
-
+	select {
+	case result := <-ch:
+		fmt.Printf("Completed work: %s\n", result)
+	case <-ctx.Done():
+		fmt.Println("Timeout!")
 	}
+
 }

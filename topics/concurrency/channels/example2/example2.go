@@ -1,5 +1,4 @@
-// Sample program to show fanout pattern, where the parent goroutine creates 2000 child goroutines and waits for them
-// to signal the results.
+// Sample program to show fanout pattern, where the parent goroutine creates 2000 child goroutines and waits for them to signal the results.
 package main
 
 import (
@@ -15,14 +14,15 @@ func main() {
 	for c := range children {
 		go func(child int) {
 			time.Sleep(time.Duration(rand.IntN(200)) * time.Millisecond)
-			ch <- fmt.Sprintf("data: %d", child)
-			fmt.Println("child: sent signal:", child)
+			result := fmt.Sprintf("result-%d", child)
+			ch <- result
+			fmt.Println("child: sent signal:", result)
 		}(c)
 	}
 
 	for children > 0 {
 		d := <-ch
 		children--
-		fmt.Println("parent: recived signal:", d)
+		fmt.Println("parent: received signal:", d)
 	}
 }

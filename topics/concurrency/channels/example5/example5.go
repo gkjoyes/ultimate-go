@@ -1,5 +1,4 @@
-// Sample program to show fanOutSem pattern, where a semaphore is added to the fan out pattern to restrict the number
-// of child goroutines that can be schedule to run.
+// Sample program to show fanOutSem pattern, where a semaphore is added to the fan out pattern to restrict the number of child goroutines that can be schedule to run.
 package main
 
 import (
@@ -21,16 +20,17 @@ func main() {
 			sem <- true
 			{
 				time.Sleep(time.Duration(rand.IntN(200)) * time.Millisecond)
-				ch <- "data"
-				fmt.Println("child: sent signal:", child)
+				result := fmt.Sprintf("result: %d", child)
+				ch <- result
+				fmt.Println("child: sent signal:", result)
 			}
 			<-sem
 		}(c)
 	}
 
 	for children > 0 {
-		d := <-ch
+		result := <-ch
 		children--
-		fmt.Printf("parent: received signal: %s childre: %d", d, children)
+		fmt.Printf("parent: received signal: %s\n", result)
 	}
 }

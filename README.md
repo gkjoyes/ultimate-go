@@ -92,16 +92,16 @@ Go is lightweight, simple, and perfect for modern cloud-native and microservices
 </details>
 
 <details>
-<summary> <b>Lesson 10: Channels</b> </summary>
+<summary> <b>8. Channels</b> </summary>
 
-- [Wait For Result](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example1/example1.go)
-- [Fanout](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example2/example2.go)
-- [Wait For Task](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example3/example3.go)
-- [Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example4/example4.go)
-- [Fanout Semaphore](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example5/example5.go)
-- [Bounded Work Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example6/example6.go)
-- [Drop Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example7/example7.go)
-- [Cancellation Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/lesson_10/example8/example8.go)
+- [Wait For Result](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example1/example1.go)
+- [Fanout](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example2/example2.go)
+- [Wait For Task](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example3/example3.go)
+- [Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example4/example4.go)
+- [Fanout Semaphore](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example5/example5.go)
+- [Bounded Work Pooling](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example6/example6.go)
+- [Drop Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example7/example7.go)
+- [Cancellation Pattern](https://github.com/gkjoyes/ultimate-go/blob/main/topics/concurrency/channels/example8/example8.go)
 
 </details>
 
