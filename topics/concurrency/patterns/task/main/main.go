@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gkjoyes/ultimate-go/task"
+	"github.com/gkjoyes/ultimate-go/topics/concurrency/patterns/task"
 )
 
 // names provides a set of names to display.
