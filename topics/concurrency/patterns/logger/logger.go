@@ -8,7 +8,7 @@ import (
 	"sync"
 )
 
-// Logger provides support to throw log lines away if log writes start to timeout due to latancy.
+// Logger provides support to throw log lines away if log writes start to timeout due to latency.
 type Logger struct {
 	write chan string    // Channel to send/receive data to be logged.
 	wg    sync.WaitGroup // Help control the shutdown.

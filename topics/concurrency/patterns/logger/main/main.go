@@ -1,4 +1,3 @@
-// Sample program to demonstrates how the logger package works.
 package main
 
 import (
@@ -7,7 +6,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gkjoyes/ultimate-go/lesson_11/example1/logger"
+	"github.com/gkjoyes/ultimate-go/topics/concurrency/patterns/logger"
 )
 
 type device struct {
